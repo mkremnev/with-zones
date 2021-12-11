@@ -1,10 +1,10 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Blog() {
   return (
     <div>
-      <h3>This is our blog</h3>
+      <h3>This is our blog asdfasd</h3>
       <ul>
         <li>
           <Link href="/post/1">
@@ -27,5 +27,5 @@ export default function Blog() {
         />
       </div>
     </div>
-  )
+  );
 }
